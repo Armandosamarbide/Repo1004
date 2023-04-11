@@ -1,0 +1,34 @@
+.principal {
+
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.secciones {
+    border: 3px solid;
+    padding: 10px;
+
+}
+
+.secciones img {
+
+    width: 309px;
+    height: 193px;
+
+}
+
+p{
+
+    width: 300px;
+}
+
+/* .secciones :hover {
+
+    width: 20%;
+    height: 20%;
+
+} */
