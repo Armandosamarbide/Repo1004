@@ -14,13 +14,9 @@
 }
 
 .artprincipal img{
-
     
-    flex-wrap: nowrap;
-    width: 609px;
-    height: 393px;
+display: flex;jnhhhhhhhhhhhjki
 
-    
     }
 
 .artprincipal p {
@@ -77,32 +73,6 @@ p{
 
     width: 300px;
 }
-
-/* .secciones :hover {
-
-    width: 20%;
-    height: 20%;
-
-} */
-
-/* nav {
-display: flex;
-justify-content: space-between;
-align-items: center;
-width: 400px;
-margin-top: 40px;
-margin-bottom: 50px;
-white-space: nowrap;
-text-decoration: none;
-transition: none;
-line-height: 1.5;
-text-rendering: optimizeLegibility;
-border: 1px solid;
-border-radius: 4px;
-overflow: hidden;
-padding-left: 12px;
-padding-right: 12pc;
-} */
 
 nav {
 
