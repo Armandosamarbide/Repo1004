@@ -10,12 +10,13 @@
     justify-content: left;
     margin-right: 40%;
     height: auto;
+    box-sizing: border-box;
 
 }
 
 .artprincipal img{
     
-display: flex;jnhhhhhhhhhhhjki
+display: flex;
 
     }
 
@@ -63,8 +64,9 @@ display: flex;jnhhhhhhhhhhhjki
 
 .secciones img {
 
-    width: 309px;
-    height: 193px;
+    max-width: 50%;
+    max-height: 50%;
+    object-fit: contain;
 
 }
 
