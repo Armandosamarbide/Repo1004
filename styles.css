@@ -1,0 +1,265 @@
+/*Imports*/
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/*Variables de CSS */
+
+:root {
+
+    --color-blanco: #f9f9f9; 
+    --color-oscuro: #272727;
+}
+
+
+*{
+
+padding: 0%; /*Del contenido hacia el borde */
+margin: 0%; /*Espaciado del borde hacia afuera */
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+
+}
+
+.general {
+
+width: 90%;
+margin: 0 5% 5%; /*Sumar 100 */
+
+
+}
+
+/*Si uso px no queda responsive, con porcentajes se ajusta al tamaño de la pantalla */
+
+.mainbanner {
+margin: 0vh 3vw 2vh 3vw;
+width: 100%;
+height: 10vh;
+background-color: rgb(47, 10, 212);
+border: 1px solid black;
+margin-top: 0%;
+justify-content: left;
+
+}
+
+.mainbanner p {
+
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--color-blanco);
+    font-weight: bold;
+    padding-left: 25px;
+    padding-top: -8px;
+}
+
+
+nav {
+    width: 100%;
+    margin: 2vh 3vw 2vh 3vw;
+    
+    background-color: rgb(27, 27, 73);
+    display: flex;
+    justify-content: right;
+    gap: 2vw;
+    padding: 3vh 0;
+    /* box-shadow: 0 2px 8px 2px rgb(0, 0, 0, 0.192);*/ /*Efecto difuminado del color */
+    padding-right: 30px;
+
+
+    /*Ver neuromorphism.io */
+
+}
+
+nav a {
+
+    color: var(--color-blanco);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    
+
+}
+
+nav a:hover {
+
+background-color: rgb(255, 255, 255);
+color: var(--color-oscuro);
+
+}
+
+
+
+.caja-contenedora-principal {
+margin: 2vh 0vw 2vh 0vw;
+
+/* margin-left: 12.2px; */
+width: 100%;
+background-color: var(--color-blanco);
+border: 1px solid black;
+height: auto;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 10px;
+padding-top: 5px;
+
+}
+
+.imagenprincipal {
+
+    width: 70%;
+    height: auto;
+    float: none;
+    object-fit: contain;
+}
+
+.imagen-notas {
+
+    width: 100%;
+    height: auto;
+    float: none;
+    object-fit: contain;
+}
+
+.caja-contenedora{
+margin: 0vh auto 2vh 3vw; /*Arr Der Abajo Izq */
+padding: 2vh 3vw;
+float: left;
+width: 73%;
+height: auto;
+background-color: rgb(43, 43, 43);
+/* padding-top: 2%;
+padding-left: 2|%;
+padding-right: 1%; */
+border: 1px solid;
+}
+
+.notas {
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    margin: 2vh 0vw 2vh 0vw;
+    height: auto;
+}
+
+.caja-hijo{
+    width: 23%;
+    height: auto;
+    background-color: rgb(26, 11, 114);
+    font-size: 2rem;
+    line-height: 1;
+    text-align: left;
+    padding: 1rem;
+    background: #dfeffd;
+    border: 3px solid #457fdc;
+    color: #457fdc;
+    margin: 1%;
+
+    }
+
+    .caja-hijo h2{
+
+        font-family: Arial, Helvetica, sans-serif;
+        color: #5F6368;
+        font-size: 19px;
+        
+        }
+
+.caja-hijo p {
+
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3B3B3B;
+    font-size: 10px;
+  
+}
+
+.caja-contenedora-sidebar{
+    margin: 0vh 1vw 2vh 1.5vw; /*Arr Der Abajo Izq */
+
+    width: 20%;
+    /* background-color: rgb(191, 209, 24); */
+    /* border: 1px solid; */
+    float: left;
+    height: auto;
+    display: -webkit-flex;
+    display: flex;
+    
+    flex-direction: column;
+    flex-wrap: wrap;  
+}
+
+.imagensidebar {
+    float:left;
+    width: 100%;
+    height: auto;
+    float: none;
+    object-fit: contain;
+}
+
+.autor {
+    
+    /* border: 1px solid; */
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    color: #3B3B3B;
+    font-size: 12px;
+
+}
+
+.caja-contenedora-principal-bajada {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3B3B3B;
+    font-size: 15px;
+    
+    }
+
+.caja-contenedora-principal h1{
+
+font-family: Arial, Helvetica, sans-serif;
+color: #5F6368;
+font-size: 38px;
+
+}
+
+
+
+.caja-hijo-sidebar{
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+    line-height: 1;
+    text-align: center;
+   
+    /* background: #f88706; */
+    /* border: 3px solid black; */
+    color: #457fdc;
+
+    }
+
+.footer {
+
+    width: 100%;
+    background-color: rgb(12, 102, 107);
+    display: flex;
+    justify-content: left;
+    gap: 2vw;
+    margin: 2vh 3vw 2vh 3vw;
+    padding: 2vh;
+    padding-left: 2vw;
+
+}
+
+.footer a {
+
+    color: var(--color-blanco);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 250;
+}
+
