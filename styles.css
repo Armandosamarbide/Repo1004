@@ -23,8 +23,8 @@ font-family: 'Roboto', sans-serif;
 
 .general {
 
-width: 90%;
-margin: 0 5% 5%; /*Sumar 100 */
+width: 80%;
+margin: 0 10% 0% 10%; /*Sumar 100 */
 
 
 }
@@ -106,7 +106,7 @@ padding-top: 5px;
 
 .imagenprincipal {
 
-    width: 70%;
+    width: 100%;
     height: auto;
     float: none;
     object-fit: contain;
@@ -121,10 +121,10 @@ padding-top: 5px;
 }
 
 .caja-contenedora{
-margin: 0vh auto 2vh 3vw; /*Arr Der Abajo Izq */
+margin: 0vh 2vh 2vh 3vw; /*Arr Der Abajo Izq */
 padding: 2vh 3vw;
 float: left;
-width: 73%;
+width: 60vw;
 height: auto;
 background-color: rgb(43, 43, 43);
 /* padding-top: 2%;
@@ -186,11 +186,20 @@ border: 1px solid;
   
 }
 
-.caja-contenedora-sidebar{
-    margin: 0vh 1vw 2vh 1.5vw; /*Arr Der Abajo Izq */
+.caja-hijo a:hover {
 
-    width: 20%;
-    /* background-color: rgb(191, 209, 24); */
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5F6368;
+    font-size: 19px;
+  
+}
+
+.caja-contenedora-sidebar{
+    margin: 0vh 0 2vh 0; /*Arr Der Abajo Izq */
+
+    width: 15vw;
+    background-color: rgb(191, 209, 24);
     /* border: 1px solid; */
     float: left;
     height: auto;
