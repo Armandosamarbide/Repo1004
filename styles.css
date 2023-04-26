@@ -147,13 +147,13 @@ border: 1px solid;
 .caja-hijo{
     width: 23%;
     height: auto;
-    background-color: rgb(26, 11, 114);
+    background-color: white;
     font-size: 2rem;
     line-height: 1;
     text-align: left;
     padding: 1rem;
-    background: #dfeffd;
-    border: 3px solid #457fdc;
+    /* background: #dfeffd; */
+    /* border: 3px solid #457fdc; */
     color: #457fdc;
     margin: 1%;
 
@@ -173,7 +173,16 @@ border: 1px solid;
     padding-bottom: 7px;
     font-family: Arial, Helvetica, sans-serif;
     color: #3B3B3B;
-    font-size: 10px;
+    font-size: 13px;
+  
+}
+
+.caja-hijo a {
+
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5F6368;
+    font-size: 19px;
   
 }
 
@@ -226,6 +235,21 @@ font-size: 38px;
 
 }
 
+.caja-contenedora-principal h1 a{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5F6368;
+    font-size: 38px;
+    text-decoration: none;
+    }
+    
+.caja-contenedora-principal h1 a:hover{
+
+        font-family: Arial, Helvetica, sans-serif;
+        color: #5F6368;
+        font-size: 38px;
+        text-decoration: underline;
+        }
 
 
 .caja-hijo-sidebar{
