@@ -19,7 +19,7 @@ font-family: 'Roboto', sans-serif;
 
 :root {
 
---naranja: orangered;
+--naranja: #FD611A;
 --blanco: white;
 --gris: grey;
 --negro: black;
@@ -78,7 +78,7 @@ text-align: center;
 font-family: 'Montserrat', sans-serif;
 color: var(--blanco);
 font-size: 14px;
-width: 70px;
+width: 140px;
 line-height: 41px;
 display: inline-block;
 margin-right: 10px;
