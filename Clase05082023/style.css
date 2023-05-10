@@ -26,11 +26,26 @@ header {
     padding: 4vh 5vw;
 }
 
-header button {
+header .btn-dropdown {
     background-color: transparent;
     border: none;
     font-size: 1.4rem;
 }
+
+.header-controls {
+    display:none;
+}
+
+.header-controls .btn{
+background-color: transparent;
+border: none;
+padding: 10px 0;
+width: 130px;
+font-size: 1.4rem;
+border-radius: 10px;
+}
+
+
 
 .logo {
     position: relative;
@@ -126,3 +141,31 @@ footer{
 font-size: 0.8rem;
 
 }
+
+/*Las media queries deben ir al final. Si se ponen
+al principio, van a tapar todo lo anterior*/
+
+@media screen and (min-width: 750px) {
+.header-controls {
+    display: flex;
+    gap: 2vw;
+}
+
+header .btn-dropdown {
+    display:none;
+}
+.header-controls .btn-login {
+    background-color: var(--color-secundario);
+    border: 1px solid #BDBDBD;
+    }
+}
+
+.header-controls .btn-register {
+background-color: var(--color-principal);
+color: white;
+box-shadow: 0 0px 20px 0px rgba(0, 0, 0, 0.14);
+-webkit-text-stroke: black 1px;        ;
+}
+}
+
+@media screen and (min-width: 1000px) {}
