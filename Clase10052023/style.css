@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --color-principal: #FFC727;
+    --color-complementario: #FFB412;
+    --color-secundario: #DFEAFF;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4vh 5vw;
+}
+
+header .btn-dropdown{
+    background-color: transparent;
+    border: none;
+    font-size: 1.4rem;
+}
+.header-controls{
+    display: none;
+}
+.header-controls .btn{
+    background-color: transparent;
+    border: none;
+    padding: 7px 0;
+    width: 6.2rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+.logo{
+    position: relative;
+}
+.logo div{
+    display: flex;
+}
+
+.bi-people-fill{
+    font-size: 1.7rem;
+    position: absolute;
+    top: -28px;
+    color: var(--color-principal);
+}
+.bi-bookmark-fill{
+    padding-top: 5px;
+    color: var(--color-complementario);
+}
+.logo div h2{
+    line-height: 28px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.colorPrincipal{
+    color: var(--color-principal);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero{
+    width: 80%;
+    display: flex;
+}
+.heroText{
+
+    display: flex;
+    flex-direction: column;
+}
+.heroImgContainer{
+    display: none;
+}
+
+h1{
+    font-size: 2.2rem;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: var(--color-secundario);
+    padding: 5vh 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 5vh;
+}
+.serviceCard{
+    width: 70%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.serviceCard img{
+    width: 100%;
+}
+
+footer{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+footer .follow {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.redes{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7rem;
+}
+.copyright{
+    font-size: 0.8rem;
+}
+
+.serviceCard h2{
+    display: none;
+}
+/* @media  screen and (max-width: 1000px) {
+    body{
+        background-color: aqua;
+    }
+} */
+@media screen and (min-width: 500px){
+    html{
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 1000px){
+    .heroImgContainer{
+        display: flex;
+        justify-content: center;
+        flex: 2;
+    }
+    .heroText{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .heroImgContainer img{
+        width: 100%;
+    }
+    html{
+        font-size: 20px;
+    }
+    .header-controls{
+        display: flex;
+        gap: 3vw;
+    }
+    
+    .header-controls .btn-register{
+        background-color: var(--color-principal);
+        color: white;
+        box-shadow:/* inset */ 0 0px 20px 0px rgba(0, 0, 0, 0.14);
+        /* -webkit-text-stroke: black 1px; */
+    }
+
+
+    .header-controls .btn-login{
+        border: solid 1px #BDBDBD;
+    }
+    header .btn-dropdown{
+        display: none;
+
+    }
+    .services{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 3vh 10%;
+    }
+    .serviceCard{
+        height: 23rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 15rem;
+    }
+    .serviceCard p{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        /* order: 1; */
+    }
+    .serviceCardImgContainer{
+        flex: 2;
+        display: flex;
+        align-items: center;
+        /* order: 2; */
+    }
+}
+
+@media screen and (min-width: 1300px){
+    h1{
+        font-size: 3rem;
+    }
+    .hero{
+        min-height: 80vh;
+    }
+    html{
+        font-size: 22px;
+    }
+    .heroImgContainer{
+        flex: 1;
+    }
+    .heroImgContainer img{
+        width: 100%;
+    }
+    .heroText{
+        flex: 1;
+        padding-right: 15vw;
+        gap: 7vh;
+    }
+    .heroText p{
+        font-size: 1.5rem;
+    }
+    .serviceCard h2{
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .serviceCard{
+        width: 30%;
+        height: 90vh;
+    }
+}
+@media screen and (min-width: 1600px){
+    html{
+        font-size: 30px;
+    }
+}

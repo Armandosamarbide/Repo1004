@@ -87,10 +87,21 @@ main{
 
 .hero {
 
-width: 70%;
+width: 80%;
 display: flex;
 flex-direction: column;
 gap: 1.2rem;
+}
+
+.heroText{
+display:flex;
+flex-direction: column;
+
+}
+
+.heroImgContainer {
+display:none;
+
 }
 
 h1{
@@ -145,8 +156,34 @@ font-size: 0.8rem;
 /*Las media queries deben ir al final. Si se ponen
 al principio, van a tapar todo lo anterior*/
 
+@media screen and (min-width:1000px) {
+    html{
+        font-size: 18px;
+
+    }
+    .heroImgContainer{
+        display: flex;
+        justify-content: center;
+        flex: 2;
+
+    }
+    .heroImgContainer img {
+        width: 80%;
+    }
+    .heroText {
+        flex:1;
+        display: flex;
+        flex-direction: column;
+justify-content: center;    }
+}
+
 @media screen and (min-width: 750px) {
-.header-controls {
+
+html {
+    font-size: 20px;
+}
+
+    .header-controls {
     display: flex;
     gap: 2vw;
 }
@@ -158,14 +195,66 @@ header .btn-dropdown {
     background-color: var(--color-secundario);
     border: 1px solid #BDBDBD;
     }
-}
+
 
 .header-controls .btn-register {
 background-color: var(--color-principal);
 color: white;
 box-shadow: 0 0px 20px 0px rgba(0, 0, 0, 0.14);
--webkit-text-stroke: black 1px;        ;
 }
+.services {
+    flex-direction: row;
+}
+.serviceCard {
+height: 23rem;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+.serviceCard p{
+    flex: 1;
+    display: flex;
+    align-items: end;
+
+}
+.serviceCardImgContainer {
+    flex: 2;
+    display: flex;
+    align-items: center;
 }
 
-@media screen and (min-width: 1000px) {}
+}
+
+
+@media screen and (min-width: 1300px) {
+
+font-size: 22px;
+.heroImgContainer{
+    flex: 1;
+}
+.heroText{
+flex: 1;
+padding-right: 15vw;
+
+}
+.serviceCard h2{
+
+    display: block;
+    flex: 1;
+    margin-top: 20px;
+
+}
+.serviceCard{
+    height: 60vh;
+    width: 30%;
+}
+
+}
+
+@media screen (min-width: 1600px){
+html {
+    font-size: 30px;
+}
+
+}
