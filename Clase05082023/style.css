@@ -196,7 +196,6 @@ header .btn-dropdown {
     border: 1px solid #BDBDBD;
     }
 
-
 .header-controls .btn-register {
 background-color: var(--color-principal);
 color: white;
@@ -206,7 +205,7 @@ box-shadow: 0 0px 20px 0px rgba(0, 0, 0, 0.14);
     flex-direction: row;
 }
 .serviceCard {
-height: 23rem;
+height: 27rem;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
@@ -246,7 +245,7 @@ padding-right: 15vw;
 
 }
 .serviceCard{
-    height: 60vh;
+    height: 70vh;
     width: 30%;
 }
 
