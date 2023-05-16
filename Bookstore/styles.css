@@ -205,13 +205,11 @@ border: 1px solid;
     margin: 0vh 0 2vh 0; /*Arr Der Abajo Izq */
 
     width: 15vw;
-    background-color: rgb(191, 209, 24);
     /* border: 1px solid; */
     float: left;
     height: auto;
     display: -webkit-flex;
     display: flex;
-    
     flex-direction: column;
     flex-wrap: wrap;  
 }
@@ -270,13 +268,10 @@ font-size: 38px;
 .caja-hijo-sidebar{
     width: 100%;
     height: auto;
-    font-size: 2rem;
     line-height: 1;
     text-align: center;
-   
-    /* background: #f88706; */
-    /* border: 3px solid black; */
     color: #457fdc;
+    object-fit: contain;
 
     }
 
