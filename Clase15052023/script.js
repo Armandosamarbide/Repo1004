@@ -46,5 +46,13 @@ console.log('Hola')
 
 // ==, ===, !=, !==, >, <, =<
 
-// ==: para comparar igualdad.
+// == para comparar igualdad.
 
+/* GUARDAR INFORMACIÓN */
+
+// Variables: espacio reservado en memoria donde podemos guardar algo.
+// Tres formas de hacerlo: var, let, const
+
+// var: pertenece a ES5 para atrás, nace con el lenguaje, ya NO se usa.
+// Uso: var <nombre> = 50
+// Por ser JS un lenguaje débilmente tipado, no necesito aclarar el tipo de dato de la variable cuando la declaro.
