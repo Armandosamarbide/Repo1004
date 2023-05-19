@@ -172,11 +172,42 @@ else {console.log("Precio inválido")} */
 el mayor de los 3(nos muestra el numero mayor por consola) */
 
 
-let a = prompt("Ingrese primer valor")
+/*let a = prompt("Ingrese primer valor")
 let b = prompt("Ingrese segundo valor")
 let c = prompt("Ingrese tercer valor")
-if (a > b && a > c) { console.log("a es el mayor") }
-else if (b > a && b > c) {console.log("b es el mayor") }
-else if (c > a && c > b) { console.log("c es el mayor") }
-else if (a==b==c) {console.log("Los tres números son iguales")}
+if (a > b && a > c) { console.log(+ a" es el mayor") }
+else if (b > a && b > c) {console.log(+ b" es el mayor") }
+else if (c > a && c > b) { console.log(console.log(+ c" es el mayor")) }
+else if (a==b==c) {console.log("Los tres números son iguales")} */
+
+
+// Verificamos si el número es positivo, negativo o cero (nos dira por consola a que categoria pertenece)
+
+/* let c = prompt("Ingrese la edad")
+if (c >= 18 && c <= 65) { console.log("La persona está en edad laborable") }
+else if (c = 0) { console.log("La persona no existe") }
+else { console.log("la persona no está en edad laborable") } */
+
+// Verificamos si la edad está en el rango de 18 a 65 años, si se cumple la condicion, se dira por consola
+// Esta en edad laborable
+
+/* Otra forma de comparar tres números bajado de CHATGPT ;)
+
+var numero1 = parseFloat(prompt("Ingrese el primer número:"));
+var numero2 = parseFloat(prompt("Ingrese el segundo número:"));
+var numero3 = parseFloat(prompt("Ingrese el tercer número:"));
+
+// Comparar los números para determinar el mayor
+var mayor = numero1;
+
+if (numero2 > mayor) {
+  mayor = numero2;
+}
+
+if (numero3 > mayor) {
+  mayor = numero3;
+}
+
+// Mostrar el resultado
+console.log("El número mayor es: " + mayor); */
 
