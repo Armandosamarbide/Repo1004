@@ -183,10 +183,10 @@ else if (a==b==c) {console.log("Los tres números son iguales")} */
 
 // Verificamos si el número es positivo, negativo o cero (nos dira por consola a que categoria pertenece)
 
-/* let c = prompt("Ingrese la edad")
+/*let c = prompt("Ingrese la edad")
 if (c >= 18 && c <= 65) { console.log("La persona está en edad laborable") }
-else if (c = 0) { console.log("La persona no existe") }
-else { console.log("la persona no está en edad laborable") } */
+else if (c == 0) { console.log("La persona no existe") }
+else { console.log("la persona no está en edad laborable") }*/
 
 // Verificamos si la edad está en el rango de 18 a 65 años, si se cumple la condicion, se dira por consola
 // Esta en edad laborable
