@@ -1,0 +1,30 @@
+// Queremos buscar el producto 2
+// Método FIND
+
+/* console.log(find(2,productos))
+console.log(productos.find((producto) => productos.id == 2)) */
+
+
+// SI lo quiero hacer con FOR
+
+/* const find = (id, array) => {
+    for (const producto of array) {
+        if (producto.id == id) {
+            return producto
+        }
+    }
+}
+console.log(find(2,productos))
+document.write(find(2,productos)) */
+
+/* console.log(productos.find( (producto) => producto.id == 2 ))
+
+const find = (array, callback) => {
+    for (const element of array) {
+        if (callback(element)) /* Esto devuelve un boolean */
+            return element
+    
+}
+}
+
+console.log(find(productos, (producto) => producto.id == 2)) * /
