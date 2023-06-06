@@ -1,0 +1,97 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+/*     background-color: var(--color-principal)
+ */}
+
+:root {
+    --color-principal: #080E24;
+    --color-complementario: #121D36;
+    --color-secundario: #1B2B46;
+    --color-letra: #888888;
+    --color-blanco: white;
+    --color-negro: #black;
+}
+
+header {
+   
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto;
+    height: 134px;
+    width: 100%;
+    background-color: red;
+
+}
+
+.grilla1 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top:31px;
+    margin-left: 50px;
+    
+}
+
+.grilla1 .grid-item img {
+    width: 65px;
+    height: 55px;
+    color: #1090F2;
+    position:absolute;
+   
+
+    
+}
+
+.grilla1 .grid-item .explore {
+    width: 314px;
+    height: 55px;
+    position: absolute;
+    margin-left: 150px;
+    border: none;
+    border-radius: 21px;
+    background-color: var(--color-complementario);
+    font-family: sans-serif;
+    font-size: 23px;
+    color: var(--color-letra);
+    text-align: left;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.grilla1 .grid-item .boton span.texto-grande {
+
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.grilla2 {
+
+    display: flex;
+    flex-direction: row;
+    gap: 33px;
+
+}
+
+.grilla2 .grid-item .boton {
+    width: 165.79px;
+    height: 57.12px;
+    position: absolute;
+    margin-left: 950px;
+    margin-right: 804px;
+    margin-top: 31px;
+    border: none;
+    border-radius: 22.29px;
+    background-color: var(--color-blanco);
+    font-family: sans-serif;
+    font-size: 23px;
+    color: var(--color-negro);
+    text-align: right;
+    font-weight: 700;
+    padding-right: 20px;
+}

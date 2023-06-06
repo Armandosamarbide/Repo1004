@@ -16,12 +16,18 @@ const productos = [
     }
 ];
 
-
-// Método FILTER
-
-/* console.log(productos.filter((producto) => {
-    return producto.precio > 7
-})) */
+const gifts = [
+  "casa",
+  "perro",
+  "coche",
+  "playa",
+  "ciudad",
+  "libro",
+  "amor",
+  "computadora",
+  "persona",
+  "montaña",
+];
 
 const mensajes = [
   "¡Hola a todos!",
@@ -36,6 +42,17 @@ const mensajes = [
   "¿Alguien tiene recomendaciones de libros tontos para leer?",
   "¡Estoy TONTO por las vacaciones que se acercan!",
 ];
+
+const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+
+
+// Método FILTER
+
+/* console.log(productos.filter((producto) => {
+    return producto.precio > 7
+})) */
+
+
 
 /* let stringBuscar = prompt('ingrese lo que desea buscar')
 
@@ -81,20 +98,9 @@ console.log({ ...Object, stock: 20 }) */
 /* console.log(productos.map(
     (producto) => ({...producto, precio: '$'+ producto.precio}))); */
 
-const gifts = [
-  "casa",
-  "perro",
-  "coche",
-  "playa",
-  "ciudad",
-  "libro",
-  "amor",
-  "computadora",
-  "persona",
-  "montaña",
-];
 
-const wrapping = (gifts) => {
+
+/* const wrapping = (gifts) => {
     return gifts.map((gift) => {
         return (
             '*'.repeat(gift.length + 2) + '\n*' + gift + '*\n' + '*'.repeat(gift.length + 2) 
@@ -103,4 +109,21 @@ const wrapping = (gifts) => {
 }
 
 const wrapped = wrapping(gifts)
-wrapped.forEach(wrappedGift => console.log(wrappedGift))
+wrapped.forEach(wrappedGift => console.log(wrappedGift)) */
+
+//
+/* let suma = 0
+numeros.forEach(function (numero) {
+    if numero > 10 {
+        suma = suma + numero
+        console.log(suma)
+    }
+});
+
+console.log('el resultado final es ' + suma) */
+
+const array = [1, 2, 3, 4, 5];
+
+array.forEach(function(element) {
+  console.log('el elemento es ' + element);
+});
