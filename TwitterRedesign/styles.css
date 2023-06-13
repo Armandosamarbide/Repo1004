@@ -24,7 +24,7 @@ header {
     grid-template-columns: auto auto auto;
     height: 134px;
     width: 100%;
-    background-color: red;
+    background-color: var(--color-principal);
 
 }
 

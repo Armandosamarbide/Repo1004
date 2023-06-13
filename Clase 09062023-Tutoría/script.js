@@ -105,7 +105,10 @@ const productos = [
   console.log("---------------------");
 }
  */
-let i = 0
+
+// Recorremos el array con un foreach y lo mostramos
+
+/* let i = 0
 productos.forEach(producto => {
 console.log("Registro " + (i + 1) + ":");
   console.log("Nombre: " + productos[i].nombre);
@@ -113,12 +116,11 @@ console.log("Registro " + (i + 1) + ":");
   console.log("Stock: " + productos[i].stock);
   console.log("ID: " + productos[i].id);
   console.log("---------------------"); 
-});
+}); */
 
-console.log(productos[2])
-
-/* productos.forEach((producto) =>
+productos.forEach((producto) =>
 {
+    containerHTML.innerHTML =''
     containerHTML.innerHTML = containerHTML.innerHTML +  `
     <div class="productCard">
             <h2>${producto.nombre}</h2>
@@ -128,7 +130,8 @@ console.log(productos[2])
         </div>`
 })
 
-const renderizarProductos = (productos) =>
+
+/* const renderizarProductos = (productos) =>
 {
     containerHTML.innerHTML = ''
     productos.forEach((producto) =>
