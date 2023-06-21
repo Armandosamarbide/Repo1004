@@ -133,9 +133,9 @@ console.log("El mensaje decodificado es " + mensajeDeCodificado)*/
 console.log("El bar Ideal tiene " + '👌'.repeat(rating))*/
 // Emojis: tecla de Windows + punto
 
-let mensaje = "hola mundo" //Quiero que quede Hola mundo, capitalizar la primera letra
+/* let mensaje = "hola mundo" //Quiero que quede Hola mundo, capitalizar la primera letra
 console.log(mensaje[0])
-let resultado = mensaje[0].toUpperCase()
+let resultado = mensaje[0].toUpperCase() */
 
 /*for (let i = 1; i < mensaje.length; i = i + 1) {
     resultado = resultado + mensaje[i]
@@ -146,8 +146,8 @@ console.log(resultado)*/
 
 // ARRAYS
 
-const listaDeAlumnos = ['pepe', 'juan', 'sergio', 'lucas']
-
+/* const listaDeAlumnos = ['pepe', 'juan', 'sergio', 'lucas']
+ */
 /* console.log(listaDeAlumnos[1])
 
 console.log(listaDeAlumnos.length)
@@ -184,8 +184,8 @@ console.log(listaDeAlumnos.indexOf['juan'])*/
 
 // console.log(listaDeAlumnos.indexOf('juan'))
 
-const listaDeJugadores = ['Messi', 'Modric','Vinicius','Otamendi','Di María','Neymar','Martínez']
-
+/* const listaDeJugadores = ['Messi', 'Modric','Vinicius','Otamendi','Di María','Neymar','Martínez']
+ */
 // Se debera eliminar a Neymar y se agregara al principio del array
 
 /* console.log(listaDeJugadores)
@@ -231,8 +231,8 @@ console.log(listaDeJugadores)*/
 
 // FIltrar los mensajes ofensivos. En este caso, los que incluyen 'trolo'
 
-const mensajes = ['Buen día', 'Todo bien', 'Sos trolo', 'El mundo se volvió gay', 'Sos muy trolo', 'Chau', 'Chau trolo']
-const mensajesOfensivos = []
+/* const mensajes = ['Buen día', 'Todo bien', 'Sos trolo', 'El mundo se volvió gay', 'Sos muy trolo', 'Chau', 'Chau trolo']
+const mensajesOfensivos = [] */
 
 /* for (let i = 0; i < mensajes.length; i++) {
     if (mensajes[i].includes('trolo')) {
@@ -303,7 +303,7 @@ console.log("Caminé durante " + hours2secs(4) + " segundos") */
 
 /* Generar una funcion llamada esVocal(letra) nos devolvera true o false dependiendo de si es vocal */
 
-const esVocal = (string) => {
+/* const esVocal = (string) => {
     const vocales = ['a','e','i','o','u']
     for (let i = 0; i <= vocales.length; i++) {
         if (string.toLowerCase() === vocales[i]) {
@@ -311,5 +311,40 @@ const esVocal = (string) => {
     } 
     } return false
 }
+ */
 
-const esVocal
+const nombres = ["juan", "pedro", "ana", "maría","patricia","prilidiano"]
+
+/* let i=0
+for (i; nombres.length; i++) {
+    console.log(nombres[i])
+} */
+
+/* for (let i = 0; i < nombres.length; i++) {
+    console.log('nombre: ' + nombres[i])
+    if (nombres[i][0] === 'p') {
+        console.log('Este nombre empieza con p: ' + nombres[i])
+    }
+} */
+
+const frases = [
+  "Eres un JERK con suerte.",
+  "No lo hagas.",
+  "El mundo está lleno de gatos.",
+  "¡Qué vivo eres!",
+  "La sabiduría del bobo es infinita.",
+  "No subestimes a un bobo inteligente.",
+  "Incluso los bobos tienen sus momentos brillantes.",
+  "Andá pa' allá bobo.",
+  "Los bobos también pueden tener éxito.",
+  "Ser bobo no significa ser estúpido."
+];
+
+const mensajesbobos = []
+
+for (let i = 0; i < frases.length; i++) {
+    if (frases[i].includes("bobo")) {
+        console.log('El mensaje "' + frases[i] + '" incluye la palabra "BOBO".')
+        mensajesbobos.push(frases[i])
+    } else {console.log('El mensaje "' +frases[i]+ '" NO incluye la palabra "BOBO".')}
+}
