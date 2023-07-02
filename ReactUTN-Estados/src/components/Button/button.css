@@ -4,3 +4,9 @@
     border: black solid 1px;
     padding: 10px;
 }
+
+.btn-dark {
+    background-color: black;
+    border: none;
+    color: white;
+}

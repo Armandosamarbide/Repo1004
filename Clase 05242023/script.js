@@ -313,8 +313,8 @@ console.log("Caminé durante " + hours2secs(4) + " segundos") */
 }
  */
 
-const nombres = ["juan", "pedro", "ana", "maría","patricia","prilidiano"]
-
+/* const nombres = ["juan", "pedro", "ana", "maría","patricia","prilidiano"]
+ */
 /* let i=0
 for (i; nombres.length; i++) {
     console.log(nombres[i])
@@ -327,7 +327,7 @@ for (i; nombres.length; i++) {
     }
 } */
 
-const frases = [
+/* const frases = [
   "Eres un JERK con suerte.",
   "No lo hagas.",
   "El mundo está lleno de gatos.",
@@ -347,4 +347,6 @@ for (let i = 0; i < frases.length; i++) {
         console.log('El mensaje "' + frases[i] + '" incluye la palabra "BOBO".')
         mensajesbobos.push(frases[i])
     } else {console.log('El mensaje "' +frases[i]+ '" NO incluye la palabra "BOBO".')}
-}
+} */
+
+

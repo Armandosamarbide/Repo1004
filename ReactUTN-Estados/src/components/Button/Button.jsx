@@ -7,7 +7,7 @@ const Button = () => {
         alert("Hola")
 }
     return (
-  <button onClick={saludar} className="btn">Click</button>
+  <button onClick={accion} className={'btn ' + type} style={{height: 40px}}>Click</button>
     )
 
 }

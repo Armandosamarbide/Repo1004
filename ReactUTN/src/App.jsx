@@ -1,6 +1,7 @@
 import React from 'react'
-import './app.css'
-import Button from './Button'
+import './button.css'
+
+import { Button, Input } from './components/'
 
 
 const App = () => { 
@@ -12,9 +13,19 @@ const App = () => {
   return (
   <>
       <div classname="titulo">
+        <Background>
+        <h1 style></h1>
+
+        </Background>
         <h1>Hola desde React</h1>
       </div>
-      <div><Button/></div>
+      
+      <div>
+        <Button accion={saludar} />
+      <Input/>
+      </div>
+      
+      
       <label htmlFor=""></label>
   </>
   )
