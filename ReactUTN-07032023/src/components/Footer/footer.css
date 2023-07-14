@@ -1,0 +1,32 @@
+footer {
+    background-color: #f8f9fa;
+    width: 100%;
+}
+
+footer hr {
+    text-align: center;
+    width: 80%;
+}
+
+footer ul {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1.5vh;
+    padding: 2vw;
+
+}
+
+footer ul li {
+    font-family: "Google Sans", Roboto, Arial, Helvetica, sans-serif;
+    color: var(--color-principal);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-decoration: none;
+    list-style: none;
+    padding: 5vw 2vh;
+
+}

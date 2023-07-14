@@ -1,0 +1,47 @@
+* {
+    background-color: #F7F8FA;
+}
+
+nav.barra {
+    width: 100%;
+    height: 60px;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    
+    
+}
+
+.grid-item {
+    background-color: var(--color-topnav);
+    
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+.grid-item a {
+    color: var(--color-fuente2);
+}
+
+ul {
+
+    list-style: none;
+}
+
+li {
+    display: inline;
+    padding: 0.5vw;
+
+}
+
+@media only screen and (min-width: 600px) {
+    nav.barra {
+        background-color: red;
+    }
+}

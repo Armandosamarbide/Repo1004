@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    --color-cards: #ccc;
+    --color-negro: black;
+    --color-fuente: #2a3242;
+}
+
+.detalleCard {
+
+    padding: 20px;
+}
+
+.imagenDestacada {
+    text-align: center;
+}
+
+.imagenDestacada img {
+    width: 80%;
+    height: auto;
+    object-fit: contain;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 23px;
+    padding-top: 10px;
+    text-align: center;
+    color: var(--color-fuente);
+}
+
+h2 {
+    padding-top: 10px;
+    text-align: center;
+    color: var(--color-fuente);
+
+}
+
+h3 {
+    font-size: 19px;
+    margin-left: 10px;
+
+
+}
+
+p  {
+
+    width: 80%;
+    text-align: left;
+}
+
+.imagenDestacada img {
+    width: 80%;
+    height: auto;
+    object-fit: contain;
+    margin-top: 20px;
+}
