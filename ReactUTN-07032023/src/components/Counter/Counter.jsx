@@ -7,11 +7,10 @@ const Counter = ({initialValue, stock, id}) => {
     const onClickAddProduct = () =>{
         addProductCart(id, quantity)
         Swal.fire(
-            'Good job!',
-            'You clicked the button!',
-            'success'
+            'Muchas gracias por tu compra!',
+            
         )
-        console.log('necesito ejecutarme con urgencia')
+       /*  console.log('necesito ejecutarme con urgencia') */
     }
     return (
         <>
