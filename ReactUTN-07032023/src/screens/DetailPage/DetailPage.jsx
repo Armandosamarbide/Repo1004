@@ -12,19 +12,23 @@ const DetailPage = () => {
 
   return (
     <div className='detalleCard'>
-        <div className='imagenDestacada'><img src={productDetail.thumb}></img></div>
+      <div className='imagenDestacada'><img src={productDetail.thumb}></img></div>
+      <div className='detailCardElementos'>
         <h1>{productDetail.nombre}</h1>
         <h2>${productDetail.precio}</h2>
-      <h3>Descripcion:</h3> 
-        <p>{productDetail.descripcion}</p>
-     {
+      {/* <h3>Descripcion:</h3> */} 
+        <p>{productDetail.descripcion}.</p>
+        </div>
+     <div className='detailCardBotonera'>
+      
+        {
           isInCart(id) 
           ? 
           <Counter initialValue={productDetail.quantity} stock={productDetail.stock} id={productDetail.id}/> 
           : 
           <Counter initialValue={1} stock={productDetail.stock} id={productDetail.id}/>
         }
-
+      </div>
     </div>
   )
 }

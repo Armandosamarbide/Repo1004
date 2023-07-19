@@ -1,7 +1,10 @@
 import React,{createContext, useContext, useState} from 'react'
 const Context = createContext()
 const ContextProvider = ({children}) => {
-    const products =[
+    
+    
+    
+    const products = [
         {
             category: 'COMPUTADORA',
             nombre: 'iMac 24 Retina M1',
@@ -25,7 +28,7 @@ const ContextProvider = ({children}) => {
             nombre: 'iMac I5 21.5',
             precio: 530000,
             id:3,
-            stock: 8,
+            stock: 10,
             descripcion: "Apple iMac I5 21.5; Color: plata; RAM: 4Gb; Disco: 500Gb; Resolución: 1920x1080 mp",
             thumb: "https://http2.mlstatic.com/D_NQ_NP_853179-MLA69842754556_062023-O.webp"
         },
@@ -34,7 +37,7 @@ const ContextProvider = ({children}) => {
             nombre: 'MacBook Pro M1',
             precio: 1530000,
             id:4,
-            stock: 30,
+            stock: 4,
             descripcion: "MacBook Pro 14''; Color: plata; RAM: 16Gb; Disco: SSD 500Gb; Resolución: 3024x1964 mp",
             thumb: "https://http2.mlstatic.com/D_NQ_NP_945710-MLA48354170509_112021-O.webp"
         },
@@ -43,7 +46,7 @@ const ContextProvider = ({children}) => {
             nombre: 'MacBook Air M2',
             precio: 702660,
             id:5,
-            stock: 18,
+            stock: 7,
             descripcion: "MacBook Air M2; Color: negra; RAM: 8Gb; Disco: SSD 256Gb; Resolución: 3024x1964 mp",
             thumb: "https://http2.mlstatic.com/D_NQ_NP_708839-MLA51356236557_082022-O.webp"
         },
@@ -70,7 +73,7 @@ const ContextProvider = ({children}) => {
             nombre: 'Apple Mac Mini',
             precio: 499999,
             id:8,
-            stock: 18,
+            stock: 4,
             descripcion: "Mac Mini 2020 Chip Apple M1; Color: plata; RAM: 8Gb; Disco: SSD 256Gb;Resolución: n/a.",
             thumb: "https://http2.mlstatic.com/D_NQ_NP_866292-MLA50744174816_072022-O.webp"
         },
@@ -79,7 +82,7 @@ const ContextProvider = ({children}) => {
             nombre: 'Teclado Apple A1843',
             precio: 109000,
             id:9,
-            stock: 8,
+            stock: 2,
             descripcion: "Teclado bluetooth Apple A1843 QWERTY; Color: plata y blanco; Idioma: inglés internacional.",
             thumb: "https://http2.mlstatic.com/D_NQ_NP_786900-MLA32721999047_102019-O.webp"
         },

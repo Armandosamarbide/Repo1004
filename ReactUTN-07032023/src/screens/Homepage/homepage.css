@@ -11,6 +11,7 @@
     --color-negro: black;
     --color-fuente: #2a3242;
     --color-fuente2: #6B7A99;
+    --color-fuente3: #78788c;
     --color-blanco: white;
     --color-gris: grey;
     --color-topnav: #F7F8FA;
@@ -65,7 +66,7 @@ form {
     width: 80%;
     text-align: center;
     border-radius: 100px;
-    border: 0.5px solid var(--color-fuente2);
+    border: 1.5px solid var(--color-fuente3);
     background-color: var(--color-blanco);
     margin: 20px 10%;
     height:25px;
@@ -103,7 +104,7 @@ align-items: center;
 .grid-item-precio input {
     font-size: 0.8rem;
     height: 25px;
-    border: 0.5px solid var(--color-fuente2);
+    
     background-color: var(--color-blanco);
     float: left;
     width: 70px;
@@ -114,11 +115,12 @@ align-items: center;
 
 .grid-item-precio input.precioIzq {
     border-radius: 100px 0px 0px 100px;
+    border: 1.5px solid var(--color-fuente3);
     
 }
 
 .grid-item-precio input.precioDer {
-
+    border: 1.5px solid var(--color-fuente3);
     border-radius: 0 100px 100px 0;
 
 }

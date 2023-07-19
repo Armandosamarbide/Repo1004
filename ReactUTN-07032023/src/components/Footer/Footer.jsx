@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.css'
+import { NavLink, Routes, Route } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -7,8 +8,8 @@ const Footer = () => {
           <div>
               
       <ul>
-<li>About Google</li>
-<li>Google products</li>
+
+<li><NavLink to='/'>Home</NavLink></li>
 <li>Privacy Policy</li>
 <li>Terms</li>
 <li>Partners</li>
@@ -16,7 +17,8 @@ const Footer = () => {
 <li>Families</li>
 <li>Principles</li>
               </ul>
-              </div>
+      </div>
+    
           </>
   )
 }

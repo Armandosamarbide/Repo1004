@@ -6,7 +6,6 @@ import { Route, Routes } from 'react-router-dom'
 import { TopNav } from './components'
 import { Footer } from './components'
 
-
 function App() {
   return (
     <>
@@ -22,7 +21,10 @@ function App() {
       </Routes>
 
     </div>
-      <footer><Footer /></footer>
+      
+    <footer>
+        <Footer />
+      </footer>
       </>
   )
 }
