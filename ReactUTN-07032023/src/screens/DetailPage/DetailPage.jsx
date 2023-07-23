@@ -16,7 +16,7 @@ const DetailPage = () => {
       <div className='detailCardElementos'>
         <h1>{productDetail.nombre}</h1>
         <h2>${productDetail.precio}</h2>
-      {/* <h3>Descripcion:</h3> */} 
+     
         <p>{productDetail.descripcion}.</p>
         </div>
      <div className='detailCardBotonera'>

@@ -4,24 +4,23 @@
 
 nav.barra {
     width: 100%;
-    height: 60px;
+    height: 90px;
     
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-    
+    grid-template-columns: auto auto auto auto auto;
+ 
+    padding: 0.7vw;
     
 }
 
 .grid-item {
-    background-color: var(--color-topnav);
-    
-    padding: 5px;
+    padding: 0.5vh 0.5vw;
     font-size: 25px;
     text-align: center;
+ /*    border: 1px solid black; */
     
 }
 
@@ -29,19 +28,6 @@ nav.barra {
     color: var(--color-fuente2);
 }
 
-ul {
-
-    list-style: none;
-}
-
-li {
-    display: inline;
-    padding: 0.5vw;
-
-}
-
-@media only screen and (min-width: 600px) {
-    nav.barra {
-        background-color: red;
-    }
+.grid-item a:hover {
+    border-bottom: 1px solid var(--color-fuente2);
 }

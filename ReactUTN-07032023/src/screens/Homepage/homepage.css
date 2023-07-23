@@ -60,6 +60,18 @@ form {
     align-items: center;
 }
 
+.listaProductos {
+    width: 80%;
+    margin: 0 10%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+
+}
+
 .busqueda {
     align-items: center;
     padding: 5px;
@@ -81,7 +93,7 @@ form {
 }
 
 .grid-container-precio {
-width: 80%;
+width: 90%;
 padding: 0 10% 0 10%;
 display:flex;
 flex: space-between;
@@ -91,7 +103,6 @@ align-items: center;
 
 .grid-container-precio h3 {
     color: var(--color-fuente);
-    
     
 }
 
@@ -116,12 +127,13 @@ align-items: center;
 .grid-item-precio input.precioIzq {
     border-radius: 100px 0px 0px 100px;
     border: 1.5px solid var(--color-fuente3);
-    
+    margin-right: 0.07vw;
 }
 
 .grid-item-precio input.precioDer {
     border: 1.5px solid var(--color-fuente3);
     border-radius: 0 100px 100px 0;
+    margin-left: 0.07vw;
 
 }
 
@@ -134,14 +146,17 @@ align-items: center;
         width:80%;
         display: flex;
         flex-direction: row;
-
-        margin: 0 10%;
+        justify-content: center;
+        align-items: center;
+        margin: 0 17%;
 }
 
 
         h1.tituloPrincipal {
             color: var(--color-fuente);
-            width: 20%;
+            width: 30%;
+            text-align: center;
+
     
         }
 
@@ -166,16 +181,6 @@ align-items: center;
             display: inline;
         }
 
-        .listaProductos {
-            width:80%;
-            margin: 0 10%;
-            margin-bottom: 20px;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;            
-            column-gap: 20px;
-            row-gap: 20px;
-
-        }
+        
 
 }

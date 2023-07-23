@@ -8,10 +8,10 @@ const Counter = ({initialValue, stock, id}) => {
     const onClickAddProduct = () =>{
         addProductCart(id, quantity)
         Swal.fire(
-            'Muchas gracias por tu compra!',
+            `Producto añadido al carrito. 
+             Muchas gracias por tu compra!`,
             
         )
-       /*  console.log('necesito ejecutarme con urgencia') */
     }
     return (
         <>

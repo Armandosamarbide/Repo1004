@@ -75,7 +75,7 @@ const ContextProvider = ({children}) => {
             id:8,
             stock: 4,
             descripcion: "Mac Mini 2020 Chip Apple M1; Color: plata; RAM: 8Gb; Disco: SSD 256Gb;Resolución: n/a.",
-            thumb: "https://http2.mlstatic.com/D_NQ_NP_866292-MLA50744174816_072022-O.webp"
+            thumb: "https://http2.mlstatic.com/D_NQ_NP_445815-MLA25319279887_012017-O.webp"
         },
         {
             category: 'PERIFERICO',
@@ -85,6 +85,51 @@ const ContextProvider = ({children}) => {
             stock: 2,
             descripcion: "Teclado bluetooth Apple A1843 QWERTY; Color: plata y blanco; Idioma: inglés internacional.",
             thumb: "https://http2.mlstatic.com/D_NQ_NP_786900-MLA32721999047_102019-O.webp"
+        },
+         {
+            category: 'PERIFERICO',
+            nombre: 'AirPods 3° Gen',
+            precio: 114000,
+            id:10,
+            stock: 3,
+             descripcion: "Auriculares AirPods 3° Generación, con estuche de carga MagSafe; Diseño ergonómico; Color: blanco; Batería: 6 hs a plena carga;",
+            thumb: "https://http2.mlstatic.com/D_NQ_NP_857656-MLA48697030680_122021-O.webp"
+        },
+          {
+            category: 'SMARTPHONE',
+            nombre: 'iPhone 11 128Gb',
+            precio: 385000,
+            id:11,
+            stock: 13,
+            descripcion: "Apple iPhone 11 128Gb; Color: varios; Cámara: 12Mpx; Memoria interna: 128Gb; Incluye cable cargador: sí.",
+            thumb: "https://http2.mlstatic.com/D_NQ_NP_945736-MLA46114829756_052021-O.webp"
+        },
+           {
+            category: 'SMARTPHONE',
+            nombre: 'iPhone 14 Pro Max 128Gb',
+            precio: 1460000,
+            id:12,
+            stock: 2,
+            descripcion: "Apple iPhone 14 Max Pro 128Gb; Color: varios; Cámara: 48Mpx; Memoria interna: 128Gb; Incluye cable cargador: sí.",
+            thumb: "https://http2.mlstatic.com/D_NQ_NP_626311-MLA51786483154_102022-O.webp"
+        },
+            {
+            category: 'PERIFERICO',
+            nombre: 'Adaptador iPhone carga rápida',
+            precio: 109000,
+            id:13,
+            stock: 20,
+            descripcion: "Adaptador iPhone carga rápida; Voltaje: 20w; Conexión: USB-c; Color: blanco.",
+            thumb: "https://http2.mlstatic.com/D_NQ_NP_614357-MLA48825906238_012022-O.webp"
+        },
+             {
+            category: 'PERIFERICO',
+            nombre: 'Cable USB',
+            precio: 12000,
+            id:14,
+            stock: 12,
+            descripcion: "Cable USB 2.0; Color: blanco; Conector de salida: lightning; Tipo de cable de datos: USB-C; Largo: 2m.",
+            thumb: "https://http2.mlstatic.com/D_NQ_NP_843264-MLA52464252760_112022-O.webp"
         },
         
     ]

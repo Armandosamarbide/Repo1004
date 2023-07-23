@@ -13,3 +13,24 @@ margin: 3vh;
     width: 20%;
     
 }
+
+.listaProductos {
+    width: 80%;
+    margin: 0 10%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.linkCart {
+    color: var(--color-fuente2);
+    padding: 1vh 0.5vw;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+
+}

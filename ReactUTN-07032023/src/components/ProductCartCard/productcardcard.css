@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    --color-cards: #ccc;
+    --color-negro: black;
+    --color-fuente: #2a3242;
+    --color-fuente2: #6B7A99;
+    --color-blanco: white;
+    --color-gris: grey;
+    --color-topnav: #F7F8FA;
+}
+
+.single-product {
+
+    width: 80%;
+    border-left: var(--color-cards) solid 1px;
+    border-right: var(--color-cards) solid 1px;
+    border-top: var(--color-cards) solid 1px;
+    border-bottom: var(--color-cards) solid 1px;!important;
+    border-radius: 5px;
+    margin: 0 5% 0 5%;
+    margin-bottom: 5vw;
+    -webkit-box-shadow: 3.5px 2.5px 5px 0px rgba(0,0,0,0.15);
+    background-color: var(--color-blanco);
+    padding-top: 10px;
+    padding-bottom: 1vh;
+    float: none;
+    text-align: center;
+    line-height: 2;
+}
+
+.single-product:hover
+{
+    
+-webkit-box-shadow: 3.5px 2.5px 5px 0px rgba(0, 0, 0, 0.30);
+}
+
+.single-product h4 {
+    padding: 0.8vh;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-fuente2);
+    font-weight: bold;
+    background-color: var(--color-blanco);
+
+}
+
+.single-product h5 {
+    font-size: 1.05rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: var(--color-fuente2);
+    background-color: var(--color-blanco);
+
+}
+
+.linkADetalle {
+    color: var(--color-fuente2);
+    font-size: 0.9rem;
+}
+
+.single-product img {
+    width: 60%;
+    height: auto;
+    object-fit: contain;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.single-product p{
+    background-color: var(--color-blanco);
+}
+
+.imgProducto {
+    
+    width: 80%;
+    background-color: var(--color-blanco);
+    /* margin: 0 10%; */
+    border-radius: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .single-product {
+    
+            width: 31%;
+            border-left: var(--color-cards) solid 1px;
+            border-right: var(--color-cards) solid 1px;
+            border-top: var(--color-cards) solid 1px;
+            border-bottom: var(--color-cards) solid 1px;
+            !important;
+            border-radius: 5px;
+            
+            margin: 0;
+            -webkit-box-shadow: 3.5px 2.5px 5px 0px rgba(0, 0, 0, 0.15);
+            background-color: var(--color-blanco);
+            padding-top: 20px;
+            padding-bottom: 1vh;
+            float: none;
+            text-align: center;
+            line-height: 3;
+        }
+
+                .imgProducto {
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    width: 80%;
+                    height: 240px;
+                    background-color: var(--color-blanco);
+                    margin: 0 10%;
+                    border-radius: 15px;
+                }
+    }
